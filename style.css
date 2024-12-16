@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+.judul {
+  margin-bottom: 10px;
+  margin-left: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+body {
+  background: linear-gradient(to bottom right, #0085ff, #5b2da5);
+  min-height: 82.3vh;
+}
+
+.container {
+  background-color: #fff;
+  max-width: 500px;
+  margin: 130px auto 30px;
+  padding: 40px 30px;
+  border-radius: 30px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  padding: 10px 15px;
+  border-radius: 50px;
+}
+
+.input-box {
+  flex: 1;
+  margin-left: 5px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.plus {
+  border: none;
+  outline: none;
+  color: #0085ff;
+  cursor: pointer;
+}
+
+ul {
+  padding: 10px 0px 10px 30px;
+  cursor: pointer;
+}
+
+ul li {
+  margin: 10px 0;
+  font-size: 15px;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  list-style-image: url(check.png);
+  align-items: center;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: rgb(100, 100, 100);
+  list-style-image: url(checked.png);
+}
+
+ul li img {
+  position: absolute;
+  right: 12px;
+  color: #555;
+  text-align: center;
+}
+
+.tombol {
+  display: flex;
+  justify-content: space-between;
+}
+
+.remove-all {
+  background-color: #0085ff;
+  outline: none;
+  border: #0085ff;
+  border-radius: 10px;
+  padding: 10px 50px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.clear-completed {
+  background-color: #0085ff;
+  outline: none;
+  border: #0085ff;
+  border-radius: 10px;
+  padding: 10px 50px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}

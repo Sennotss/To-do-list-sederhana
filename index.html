@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MLS.DO</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="to-do-list">
+        <div class="judul">
+          <img src="logo.png" class="logo">
+          <h2>MLS.DO</h2>
+        </div>
+        <div class="input">
+          <input
+            type="text"
+            class="input-box"
+            id="input-box"
+            placeholder="Masukan List Anda.."
+          />
+          <input type="submit" class="plus" id="add-btn" value="&plus;" />
+        </div>
+      </div>
+      <ul id="list-text"></ul>
+      <div class="tombol">
+        <button class="remove-all" onclick="removeAll()">Remove All</button>
+        <button class="clear-completed" onclick="clearCompleted()">
+          Clear Completed
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
